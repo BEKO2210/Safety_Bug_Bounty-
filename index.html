@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Safety Research — Test Pages</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #0d0e11;
+    color: #e8eaf0;
+    font-family: system-ui, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card {
+    max-width: 520px;
+    width: 100%;
+    padding: 2.5rem;
+  }
+  h1 { font-size: 1.5rem; margin-bottom: 0.5rem; }
+  p { color: #6b7280; font-size: 0.9rem; margin-bottom: 2rem; }
+  a {
+    display: block;
+    padding: 1rem 1.2rem;
+    margin-bottom: 0.75rem;
+    background: #14161b;
+    border: 1px solid #1f2228;
+    border-radius: 6px;
+    color: #c8f04a;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: border-color 0.2s;
+  }
+  a:hover { border-color: #c8f04a; }
+  a span { display: block; color: #6b7280; font-size: 0.75rem; margin-top: 0.3rem; }
+</style>
+</head>
+<body>
+<div class="card">
+  <h1>Injection Test Pages</h1>
+  <p>OpenAI Safety Bug Bounty — Prompt Injection PoC</p>
+  <a href="test-pages/injection-canary-test.html">
+    Test 1 — Canary Injection
+    <span>Canary: ZEBRA-MOONLIGHT-7492 · Dark theme AI security article</span>
+  </a>
+  <a href="test-pages/injection-exfiltration-test.html">
+    Test 2 — Exfiltration Simulation
+    <span>Canary: CORAL-THUNDER-3851 · Light theme cloud guide</span>
+  </a>
+  <a href="test-pages/injection-action-test.html">
+    Test 3 — Action Hijack
+    <span>Canary: DELTA-PRISM-5028 · Dark blue UX trends report</span>
+  </a>
+</div>
+</body>
+</html>
